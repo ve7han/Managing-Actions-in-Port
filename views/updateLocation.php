@@ -29,6 +29,12 @@
 					</select>
 					<input type="hidden" name="id" value="<?php echo $location->id;?>">	
                     </div><br>
+					<div class="form-group">
+							<label style="margin-bottom : 8px;" for="nombre">Commande</label>
+							<input type="text" name="commande" class="form-control" placeholder="Commande"
+							value="<?php echo $location->commande; ?>">
+					</div>
+                    <br>
                     <div class="form-group">
 							<label style="margin-bottom : 8px;" for="date">Date debut</label>
 							<input type="date" name="date" class="form-control" placeholder="Date"
@@ -44,19 +50,13 @@
 							<input type="time" name="time_sort" class="form-control" placeholder="Temps sortie"
                             value="<?php echo $location->temps_sortie; ?>">
 					</div>
-					<br></br>
+					<br>
 					<div class="form-group">
 							<label style="margin-bottom : 8px;" for="time">Nombre Remorque</label>
 							<input type="text" name="nombre_remorque" class="form-control" placeholder="Nombre Remorque"
                             value="<?php echo $location->nombre_remorque; ?>">
 					</div>
-                    <br></br>
-					<div class="form-group">
-							<label style="margin-bottom : 8px;" for="nombre">Commande</label>
-							<input type="text" name="commande" class="form-control" placeholder="Commande"
-							value="<?php echo $location->commande; ?>">
-					</div>
-                    <br></br>
+                    <br>
                     <div class="form-group">
 							<button type="submit2" class="btn btn-primary" name="submit2">Valider</button>
 					</div>
