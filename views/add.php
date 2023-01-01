@@ -2,7 +2,7 @@
   if(isset($_POST['submit'])){
 	$newPrestation = new PilotageController();
 	$newPrestation->addPrestation();
-
+}
 if (empty($_POST['navire'])){header('location: home');}
 ?>  
 <div class="container">
@@ -62,4 +62,4 @@ if (empty($_POST['navire'])){header('location: home');}
         </div>
     </div>
 </div>
-                    
+    
